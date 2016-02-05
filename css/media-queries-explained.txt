@@ -1,0 +1,19 @@
+@media only screen and (min-width: 330px) { ... }
+
+This means if the actual device (tablet, smartphone, laptop) width is greater than or equal to
+the specified min-width, then it returns true and the rulesets apply.
+
+Another way to say it: If the device is AT LEAST as wide as the min-width (= or greater), then
+it returns true, and the rulesets apply.
+
+@media only screen and (max-width: 330px) { ... }
+
+This means if the device width is less than or equal to the specified max-width, it returns true
+and the rulesets apply.
+
+Another way to say it: If the device is AT MOST as wide as the max-width (= or less), then it
+returns true, and the rulesets apply.
+
+Conclusion:
+min-width is the miniumum width at which the styles will be applied. Anything less and it will be false.
+max-width is the maxiumum width at which the styles will be applied. Anything more and it will be false.
