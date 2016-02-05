@@ -69,6 +69,19 @@
      width: 1170px;
    }
  }
+ @media tv and (min-width: 700px) and (orientation: landscape){
+   header .hero h1 {
+	 font-size:54px;
+	 font-weight: bold;
+	 margin:95px 0 0;
+   }
+   header .hero p {
+	 font-size: 32px;
+	 line-height: 26px;
+	 font-weight: 200;
+	 margin:10px 0 40px;
+   }
+ }
  /* HEADER */
  header {
    color:#FFFFFF;
