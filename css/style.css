@@ -259,6 +259,9 @@
  .testimonials ul li {
    list-style-type: none;
  }
+ .testimonials ul li.offset{
+	margin-top: 20px; 
+ }
  .testimonials blockquote {
    color:#FFFFFF;
    text-align: left;
