@@ -353,7 +353,7 @@
  }
   /* DASHBOARD */
  .dashboard {
-   background:#025167;
+   background:#e2e2e2;
  }
  .left-nav {
    height: 100vh;
@@ -406,7 +406,7 @@
   /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    position:absolute;
-   background:#09b0d6;
+   background:#025167;
    width:100%;
    bottom:0;
    left:0;
@@ -450,7 +450,7 @@
    font-weight: 100;
    margin:0 0 30px;
    font-size: 36px;
-   color: #3498DB;
+   color: #025167;
    line-height: 44px;
    float: left;
    display:inline-block;
