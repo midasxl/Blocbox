@@ -359,6 +359,8 @@
    height: 100%;
    width: 280px;
    position: absolute;
+     background: #025167;
+     background-image: linear-gradient(206deg, #087791 0%, #025167 94%);
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
@@ -467,6 +469,7 @@
    .left-nav {
      height: 100vh;
      width:14.66666667%;
+	 min-width: 250px;
      color:#FFFFFF;
      background: #025167;
      background-image: linear-gradient(206deg, #087791 0%, #025167 94%);
