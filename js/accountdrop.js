@@ -10,14 +10,14 @@
 ;(function($) {
 
     "use strict";
-	$.fn.dropit = function(method) {
+	$.fn.accountdrop = function(method) {
 
         var methods = {
 
             init : function(options) {
-                this.dropit.settings = $.extend({}, this.dropit.defaults, options);
+                this.accountdrop.settings = $.extend({}, this.accountdrop.defaults, options);
                 return this.each(function() {
-                    var $el = $(this), el = this, settings = $.fn.dropit.settings;
+                    var $el = $(this), el = this, settings = $.fn.accountdrop.settings;
 
                     // Hide initial submenus
                     $el.addClass('acctdropit')
@@ -74,12 +74,12 @@
         } else if (typeof method === 'object' || !method) {
             return methods.init.apply(this, arguments);
         } else {
-            $.error( 'Method "' +  method + '" does not exist in dropit plugin!');
+            $.error( 'Method "' +  method + '" does not exist in accountdrop plugin!');
         }
 
     };
 
-    $.fn.dropit.defaults = {
+    $.fn.accountdrop.defaults = {
         action: 'click', // The open action for the trigger
         submenuEl: 'ul', // The submenu element
         triggerEl: 'a', // The trigger element
@@ -91,6 +91,6 @@
         afterHide: function(){} // Triggers before submenu is hidden
     };
 
-    $.fn.dropit.settings = {};
+    $.fn.accountdrop.settings = {};
 
 })(jQuery);
