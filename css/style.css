@@ -358,6 +358,7 @@
  .left-nav {
    height: 100%;
    width: 280px;
+     color:#FFFFFF;
    position: absolute;
      background: #025167;
      background-image: linear-gradient(206deg, #087791 0%, #025167 94%);
@@ -456,7 +457,7 @@
  .hamburger {
    position:absolute;
    z-index: 1000;
-   background:#34495E;
+   background:#e2e2e2;
    color:#FFF;
    text-decoration: none;
    font-size: 22px;
@@ -469,7 +470,6 @@
    .left-nav {
      height: 100vh;
      width:14.66666667%;
-	 min-width: 250px;
      color:#FFFFFF;
      background: #025167;
      background-image: linear-gradient(206deg, #087791 0%, #025167 94%);
