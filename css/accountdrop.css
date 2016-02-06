@@ -18,7 +18,7 @@
 .acctdropit .acctdropit-trigger { position: relative; }
 .acctdropit .acctdropit-submenu {
     position: absolute;
-    top: 100%;
+    top: -1000px;
 	right: 0;
     z-index: 1000;
     display: none;
