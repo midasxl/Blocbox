@@ -15,6 +15,7 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/font-awesome.css">
    <link rel="stylesheet" href="css/dropit.css">
+   <link rel="stylesheet" href="css/accountdrop.css">
  
  </head>
 
@@ -164,9 +165,10 @@
  </main>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
  <script src="js/dropit.js"></script>
+ <script src="js/accountdrop.js"></script>
  <script type="text/javascript">
      $(".menu").dropit();
-	 $(".account-settings").dropit();
+	 $(".account-settings").accountdrop();
      $( "#menu" ).click(function() { // this is our hamburge for mobile
          $("#left-nav").toggleClass("open", 200);
      });
