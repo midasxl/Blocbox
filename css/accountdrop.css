@@ -18,14 +18,14 @@
 .acctdropit .acctdropit-trigger { position: relative; }
 .acctdropit .acctdropit-submenu {
     position: absolute;
-    top: -1000px;
+    top: 100%;
 	right: 0;
     z-index: 1000;
     display: none;
 	min-width: 100px;
     list-style: none;
 	padding: 20px;
-	margin: 20px 0 0;
+	margin: -520px 0 0;
 }
 .acctdropit .acctdropit-open .acctdropit-submenu {
   display: block;
