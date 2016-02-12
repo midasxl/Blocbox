@@ -34,16 +34,16 @@
    border-radius: 4px;
 }
  .acctdropit .acctdropit-open .acctdropit-submenu:after {
-  content: " ";
-  position: absolute;
-  border-style: solid;
-  border-width: 0 8px 8px;
-  border-color: #FFFFFF transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
-  bottom: 8px;
-  right: 10px;
+  qcontent: " ";
+  qposition: absolute;
+  qborder-style: solid;
+  qborder-width: 0 8px 8px;
+  qborder-color: #FFFFFF transparent;
+  qdisplay: block;
+  qwidth: 0;
+  qz-index: 1;
+  qbottom: 8px;
+  qright: 10px;
  }
  .acctdropit .acctdropit-open .acctdropit-submenu li {
   display: block;
