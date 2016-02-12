@@ -29,7 +29,7 @@
 }
 .acctdropit .acctdropit-open .acctdropit-submenu {
   display: block;
-   background: #FFFFFF;
+   background: #000000;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
    border-radius: 4px;
 }
@@ -43,7 +43,7 @@
   width: 0;
   z-index: 1;
   top: -8px;
-  right: 30px;
+  right: 10px;
  }
  .acctdropit .acctdropit-open .acctdropit-submenu li {
   display: block;
