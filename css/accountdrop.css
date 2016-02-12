@@ -32,6 +32,7 @@
    background: #FFFFFF;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
    border-radius: 4px;
+   border:1px solid red;
 }
  .acctdropit .acctdropit-open .acctdropit-submenu:after {
   content: " ";
