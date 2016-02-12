@@ -39,11 +39,11 @@
   position: absolute;
   border-style: solid;
   border-width: 8px 8px 0px;
-  border-color: #000000 transparent;
+  border-color: #FFFFFF transparent;
   display: block;
   width: 0;
   z-index: 1;
-  top: 120px;
+  top: 122px;
   right: 10px;
  }
  .acctdropit .acctdropit-open .acctdropit-submenu li {
