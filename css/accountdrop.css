@@ -1,0 +1,64 @@
+.acctdropit {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  float:right;
+  display:inline-block;
+}
+.acctdropit .acctdropit-trigger { position: relative; }
+.acctdropit .acctdropit-submenu {
+    position: absolute;
+    top: 100%;
+	right: 0;
+    z-index: 1000;
+    display: none;
+	min-width: 100px;
+    list-style: none;
+	padding: 20px;
+	margin: -120px 0 0;
+}
+.acctdropit .acctdropit-open .acctdropit-submenu {
+  display: block;
+   background: #FFFFFF;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+   border-radius: 4px;
+   qborder:1px solid red;
+}
+ .acctdropit .acctdropit-open .acctdropit-submenu:after {
+  qcontent: " ";
+  qposition: absolute;
+  qborder-style: solid;
+  qborder-width: 0 8px 8px;
+  qborder-color: #FFFFFF transparent;
+  qdisplay: block;
+  qwidth: 0;
+  qz-index: 1;
+  qbottom: 8px;
+  qright: 10px;
+  
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 8px 0px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: 121px;
+  right: 10px;
+ }
+ .acctdropit .acctdropit-open .acctdropit-submenu li {
+  display: block;
+  margin-bottom: 20px;
+ }
+ .acctdropit .acctdropit-open .acctdropit-submenu li:last-child {
+  margin-bottom: 0px;
+ }
+ .acctdropit .acctdropit-open .acctdropit-submenu li a {
+  color:#34495E;
+  text-decoration: none;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight:100;
+  border:1px solid red;
+  float:left;
+ }
