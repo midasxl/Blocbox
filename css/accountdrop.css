@@ -25,7 +25,6 @@
    qborder:1px solid red;
 }
  .acctdropit .acctdropit-open .acctdropit-submenu:after {
-<<<<<<< HEAD
   qcontent: " ";
   qposition: absolute;
   qborder-style: solid;
@@ -36,7 +35,7 @@
   qz-index: 1;
   qbottom: 8px;
   qright: 10px;
-=======
+  
   content: " ";
   position: absolute;
   border-style: solid;
@@ -47,7 +46,6 @@
   z-index: 1;
   top: 121px;
   right: 10px;
->>>>>>> gh-pages
  }
  .acctdropit .acctdropit-open .acctdropit-submenu li {
   display: block;
@@ -61,4 +59,6 @@
   text-decoration: none;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight:100;
+  border:1px solid red;
+  float:left;
  }
